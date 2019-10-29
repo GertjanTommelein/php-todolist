@@ -40,6 +40,11 @@
             cursor:pointer;
             margin-top:0.7rem;
         }
+        .login-link {
+            position: relative;
+            left: 5rem;
+            margin-top: 0.5rem;
+        }
 
     </style>
 </head>
@@ -53,6 +58,7 @@
         <input type="password" placeholder="Password" name="register_password">
         <input type="password" placeholder="Repeat Password" name="register_repeatpassword">
         <button type="submit" name="register_submit">Register</button>
+        <span class="login-link"><a href="login.php">Already registered?</a></span>
     </form>
 
 </body>
