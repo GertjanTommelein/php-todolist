@@ -14,6 +14,7 @@
             flex-direction:column;
             justify-content:center;
             align-items:center;
+            background-color:aquamarine;
         }
         .register-success {
             
@@ -64,10 +65,15 @@
             border-color: crimson;
             border-radius: 4px;
             cursor:pointer;
+            margin-top:0.7rem;
         }
         h1 {
             padding-top: 3rem;
             color: crimson;
+        }
+        .register-link {
+            position:relative;
+            left:5rem;
         }
     </style>
 </head>
@@ -85,6 +91,6 @@
         <input type="password" name="login_password" placeholder="Password">
         <button type="submit" name="login_submit">login</button>
     </form>
-    <span class="register-button"><a href="register.php">no account?</a></span>
+    <span class="register-link"><a href="register.php">no account?</a></span>
 </body>
 </html>

@@ -13,6 +13,7 @@
         h1 {
             color:crimson;
             padding-top:3rem;
+            text-align:center;
         }
         form {
             display:flex;
@@ -37,6 +38,7 @@
             border-color: crimson;
             border-radius: 4px;
             cursor:pointer;
+            margin-top:0.7rem;
         }
 
     </style>
