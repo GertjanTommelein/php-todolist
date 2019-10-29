@@ -55,6 +55,11 @@
         button {
             
         }
+        .register-button {
+            font-size: 12px;
+            position: relative;
+            left: 60px;
+        }
     </style>
 </head>
 <body>
@@ -71,5 +76,6 @@
         <input type="password" name="login_password" placeholder="Password">
         <button type="submit" name="login_submit">login</button>
     </form>
+    <span class="register-button"><a href="register.php">no account?</a></span>
 </body>
 </html>
