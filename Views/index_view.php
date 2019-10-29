@@ -28,7 +28,7 @@
             padding-left:0.3rem;
         }
         button {
-            width:calc(20% - 0.3rem);
+            width:calc(20% - 0.31rem);
             padding:5px 0;
             padding-top:6px;
             margin-left:-8px;
