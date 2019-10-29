@@ -10,5 +10,5 @@ if(isset($_POST["register_submit"])) {
         header("location: login.php?register=valid");
     }else { }
 }
-include('views/register_view.php');
+include('Views/register_view.php');
 ?>
