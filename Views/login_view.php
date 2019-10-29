@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login</title>
+    <title>Login | todolist</title>
 
     <style>
         body {
@@ -47,18 +47,27 @@
             justify-content:center;
             align-items:center;
             margin:0 auto;
+            
         }
         input {
             margin-top:0.3rem;
             margin-bottom:0.3rem;
+            padding: 5px 2px;
+            border: 1px solid #d4cbcb;
+            border-radius: 2px;
         }
         button {
-            
+            padding: 5px 15px;
+            font-size: 1.2rem;
+            background-color: crimson;
+            color: white;
+            border-color: crimson;
+            border-radius: 4px;
+            cursor:pointer;
         }
-        .register-button {
-            font-size: 12px;
-            position: relative;
-            left: 60px;
+        h1 {
+            padding-top: 3rem;
+            color: crimson;
         }
     </style>
 </head>
