@@ -58,7 +58,7 @@
         <input type="password" placeholder="Password" name="register_password">
         <input type="password" placeholder="Repeat Password" name="register_repeatpassword">
         <button type="submit" name="register_submit">Register</button>
-        <span class="login-link"><a href="login.php">Already registered?</a></span>
+        <span class="login-link"><a href="login.php">Have an account?</a></span>
     </form>
 
 </body>
