@@ -45,7 +45,7 @@
 </head>
 <body>
     
-    <h1>Todolist</h1>
+    <h1>Register</h1>
 
     <form action="register.php" method="post">
         <?php if(isset($_SESSION["registerErrors"]["usernameError"])){ echo $_SESSION["registerErrors"]["usernameError"];} ?>
